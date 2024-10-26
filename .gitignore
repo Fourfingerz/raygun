@@ -1,0 +1,92 @@
+# Build directories
+build/
+bin/
+dist/
+Debug/
+Release/
+x64/
+Win32/
+
+# Executables anywhere in the project
+**/*.exe
+**/*.out
+**/*.app
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE specific files
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.idea/
+*.swp
+*.swo
+
+# Compiled Object files
+**/*.slo
+**/*.lo
+**/*.o
+**/*.obj
+
+# Precompiled Headers
+**/*.gch
+**/*.pch
+
+# Compiled Dynamic libraries
+**/*.so
+**/*.dylib
+**/*.dll
+
+# Compiled Static libraries
+**/*.lai
+**/*.la
+**/*.a
+**/*.lib
+
+# Dependencies
+deps/
+vendor/
+third-party/
+
+# OpenGL shader files that might contain sensitive logic
+# Uncomment if needed
+# *.glsl
+# *.vert
+# *.frag
+
+# Generated documentation
+docs/generated/
+doxygen/
+
+# Environment and configuration files that might contain sensitive data
+.env
+.env.local
+config.json
+secrets.json
+credentials.json
+api_keys.txt
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+debug.txt
+
+# Temporary files
+*.tmp
+temp/
